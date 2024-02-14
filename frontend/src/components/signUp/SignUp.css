@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f6f6f6;
+  background-color: #27938356;
 }
 
 .signup-form {
@@ -12,7 +12,7 @@
   padding: 30px;
 
   border-radius: 8px;
-  background-color: #fff;
+  background-color: #6ceae69e;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -47,7 +47,7 @@ input:focus {
 button {
   width: 100%;
   padding: 12px;
-  background-color: #2b2b32;
+  background-color: burlywood;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -58,3 +58,5 @@ button {
 button:hover {
   background-color: #06192e;
 }
+
+.head {}

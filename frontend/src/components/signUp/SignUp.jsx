@@ -23,6 +23,9 @@ function SignUp() {
   };
   return (
     <>
+      <div className='head'>
+        SignUp
+      </div>
       <div className="signup-form-container">
         <form onSubmit={handleSubmit} className="signup-form">
           <label className='labelinline'>
@@ -31,6 +34,7 @@ function SignUp() {
               type="text"
               name="username"
               placeholder='User Name'
+              style={{ width: '19rem' }}
               value={username}
               onChange={(e) => setUsername(e.target.value)}
             />
@@ -41,6 +45,7 @@ function SignUp() {
               type="email"
               name="email"
               placeholder='Email'
+              style={{ width: '19rem' }}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -52,12 +57,13 @@ function SignUp() {
               type="password"
               name="password"
               placeholder='Password'
+              style={{ width: '19rem' }}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
 
             />
           </label>
-          <button type="submit">Sign Up</button>
+          <button style={{ width: '20.9rem' }} type="submit">Sign Up</button>
         </form>
         <p>
           Already have an account? <Link to="/login">Login</Link>
